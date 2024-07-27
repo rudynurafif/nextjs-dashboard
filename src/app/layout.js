@@ -6,18 +6,7 @@ import { useState } from 'react';
 import { ColorModeContext, useMode } from '@/theme';
 import { CssBaseline, ThemeProvider } from '@mui/material';
 import Topbar from '@/scenes/global/Topbar';
-import Dashboard from '@/scenes/dashboard/page';
 import Sidebar from '@/scenes/global/Sidebar';
-// import Team from '@/scenes/team/page';
-// import Invoices from '@/scenes/invoices/page';
-// import Contants from '@/scenes/contants/page';
-// import Bar from '@/scenes/bar/page';
-// import Form from '@/scenes/form/page';
-// import Line from '@/scenes/line/page';
-// import Pie from '@/scenes/pie/page';
-// import FAQ from '@/scenes/faq/page';
-// import Geography from '@/scenes/geography/page';
-// import Calendar from '@/scenes/calendar/page';
 
 // export const metadata = {
 //   title: 'Create Next App',
@@ -38,7 +27,6 @@ export default function RootLayout({ children }) {
               <Sidebar isSidebar={setIsSidebar} />
               <main className='content'>
                 <Topbar setIsSidebar={setIsSidebar} />
-                <Dashboard />
                 {children}
               </main>
             </div>
