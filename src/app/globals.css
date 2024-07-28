@@ -10,6 +10,19 @@ body,
   font-family: 'Source Sans 3', sans-serif;
 }
 
+body {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+@media (max-width: 1024px) {
+  body {
+    transform: scale(0.5);
+    transform-origin: 0 0;
+    width: 200%;
+  }
+}
+
 .app {
   display: flex;
   position: relative;
