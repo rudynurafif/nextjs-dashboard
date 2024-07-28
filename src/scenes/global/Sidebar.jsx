@@ -61,6 +61,7 @@ const SidebarComponent = () => {
         },
         '& .ps-menu-button.ps-active': {
           color: '#6870fa !important',
+          backgroundColor: `${colors.primary[900]} !important`,
         },
       }}
     >
