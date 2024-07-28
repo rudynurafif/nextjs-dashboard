@@ -1,3 +1,5 @@
+'use client';
+
 import { useState } from 'react';
 import { Sidebar, Menu, MenuItem } from 'react-pro-sidebar';
 // import 'react-pro-sidebar/dist/css/style.css';

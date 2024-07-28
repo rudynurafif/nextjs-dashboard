@@ -1,3 +1,5 @@
+'use client';
+
 import { tokens } from '@/theme';
 import { Typography, Box, useTheme } from '@mui/material';
 
