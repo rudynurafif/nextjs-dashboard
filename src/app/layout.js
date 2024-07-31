@@ -5,8 +5,8 @@ import './globals.css';
 import { useState } from 'react';
 import { ColorModeContext, useMode } from '@/theme';
 import { CssBaseline, ThemeProvider } from '@mui/material';
-import Topbar from '@/scenes/global/Topbar';
-import Sidebar from '@/scenes/global/Sidebar';
+import Topbar from '@/layout/global/Topbar';
+import SidebarComponent from '@/layout/global/Sidebar';
 
 // export const metadata = {
 //   title: 'Create Next App',
@@ -24,7 +24,7 @@ export default function RootLayout({ children }) {
           <ThemeProvider theme={theme}>
             <CssBaseline />
             <div className='app'>
-              <Sidebar isSidebar={setIsSidebar} />
+              <SidebarComponent isSidebar={setIsSidebar} />
               <main className='content'>
                 <Topbar setIsSidebar={setIsSidebar} />
                 {children}

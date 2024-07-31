@@ -98,7 +98,7 @@ const Calendar = () => {
             eventsSet={(event) => setCurrentEvents(event)}
             initialEvents={[
               { id: '1', title: 'Last day event', date: '2024-07-14' },
-              { id: '2', title: 'New one event', date: '2024-07-29' },
+              { id: '2', title: 'Hopefully new one event', date: '2024-08-12' },
             ]}
           />
         </Box>
